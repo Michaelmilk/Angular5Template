@@ -60,3 +60,27 @@ $section-bk-color: #fff;
         padding-right: 0px;
     }
 }
+
+
+.entity-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    border-radius: 5px;
+    height: 250px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    & img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    & .detail {
+        padding: 2px 16px;
+    }
+}
+

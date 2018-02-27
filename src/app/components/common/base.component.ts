@@ -8,19 +8,12 @@ import {
     HttpParams,
     HttpHeaders,
     HttpResponse
-} from "@angular/common/http";
+} from '@angular/common/http';
 
 import { Logger } from '../../helper/logger';
 
-// @Component({
-//     selector: 'app-name',
-//     templateUrl: './name.component.html',
-//     styleUrls: ['./name.component.scss']
-// })
-
 export class BaseComponent implements OnInit {
-    logger: Logger = new Logger("onboardingToolLogger");
-    constructor() { }
+    constructor(public logger: Logger) { }
 
     ngOnInit() { }
 }

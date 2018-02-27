@@ -1,8 +1,6 @@
 import { LogLevel } from "../../src/app/core/enums";
 
 export const environmentDev = {
-    serverBaseUrl: "http://localhost:9080/api",
-    defaultVC: "https://cosmos08.osdinfra.net/cosmos/Knowledge.STCA.prod/",
-    defaultCouldPriority: 800,
+    serverBaseUrl: "http://52.151.44.120/api/",
     logLevel: LogLevel.Trace
 };
