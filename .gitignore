@@ -9,3 +9,4 @@
 *.log
 !**/js/*.js
 !webpack.config.js
+!config/**
