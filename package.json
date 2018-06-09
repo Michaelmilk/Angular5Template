@@ -97,7 +97,7 @@
     "karma-webpack": "^2.0.1",
     "lite-server": "2.3.0",
     "lodash": "^4.16.2",
-    "node-sass": "4.5.3",
+    "node-sass": "4.9.0",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.7",
     "postcss-loader": "2.0.6",

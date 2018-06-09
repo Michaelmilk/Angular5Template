@@ -29,7 +29,7 @@ module.exports = {
               configFileName: helpers.root('src', 'tsconfig.json')
             }
           },
-          'angular5-template-loader'
+          'angular2-template-loader'
         ]
       },
       {
